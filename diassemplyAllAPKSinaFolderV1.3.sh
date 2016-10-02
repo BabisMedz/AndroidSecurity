@@ -33,7 +33,7 @@ do
     grep -vwE '(uses-permission|uses-permission-sdk-m|provider|activity|activity-alias|receiver|application|service|grant-uri-permission)' manifest-tmp.txt > manifest.txt
     rm manifest-tmp.txt
     mv manifest.txt   $basenamefile.manifest.permission.txt
-    mv  $basenamefile.manifest.permission.txt permission/$basenamefile.manifest.permission.txt
+    mv $basenamefile.manifest.permission.txt permission/$basenamefile.manifest.permission.txt
 
  #   grep 'service' $basenamefile.AndroidManifest.xml |sed 's/ /\n/g' |grep 'android:name='  |sed 's/android:name=//g' |sed 's/[<:>/"]//g'> manifest-tmp.txt 
   #  grep -vwE '(provider|receiver|meta-data|activity|action)' manifest-tmp.txt >manifest.txt
