@@ -8,4 +8,6 @@ do
     
     file=$APPS_DIR
     apktool decode -f $f
+    
+done
 
