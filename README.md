@@ -1,7 +1,7 @@
 # Assessment of Android Applications
-Purpose of this projecisk management approach to assess mobile applications intrusiveness to end-users private sphere\
-This  approach  relies  on  apps  static  features  e.g.,  permissions,  APIs,  as  its  innate  features  to compute its intrusiveness using an entropy based heuristic metric\
-A custom made architecture for automatically extract mobile apps features\
-This approach is test on two different datasets:\
-Googles Play 100 top apps100\
-malware apps randomly selected
+
+• Risk management approach to assess mobile applications intrusiveness to end-users’ private sphere.
+• Rely on applications’s static features (permissions, APIs), as their innate features to compute their
+intrusiveness using an entropy based heuristic metric.
+• Custom made architecture for automatic mobile application feature extraction and validation on
+two application groups, Google’s Play top 100 apps and 100 malware apps.
